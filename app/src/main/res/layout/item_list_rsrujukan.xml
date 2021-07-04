@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    android:layout_marginBottom="3dp"
+    android:id="@+id/itemlist_rsrujukan">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/itemlist_namarsrujukan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Nama RS"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_weight="4"/>
+       <TextView
+           android:id="@+id/itemlist_alamatrsrujukan"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:textColor="@color/white"
+           android:text="Alamat"
+           android:textSize="18dp"
+           android:layout_weight="3"/>
+       <Button
+           android:id="@+id/itemlist_buttonrsrujukan"
+           android:layout_width="100dp"
+           android:layout_marginLeft="20dp"
+           android:layout_height="match_parent"
+           android:text="MAPS"
+           android:textColor="@color/black"
+           android:layout_weight="4"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
